@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit" Title="Camera View"
+             x:Class="GormeEngelliUygulama.Controller.MainPage">
+
+    <ContentPage.Content>
+        <Grid>
+            <xct:CameraView
+             x:Name="xctCameraView"
+             CaptureMode="Photo"
+             MediaCaptured="MediaCaptured"
+             HorizontalOptions="FillAndExpand"
+             VerticalOptions="FillAndExpand"/>
+        </Grid>
+    </ContentPage.Content>
+
+
+</ContentPage>
