@@ -50,10 +50,10 @@ namespace GormeEngelliUygulama.Model
                     EnableSsl = true,
                     DeliveryMethod = SmtpDeliveryMethod.Network,
                     UseDefaultCredentials = false,
-                    Credentials = new NetworkCredential("help.kadirbeskardes@outlook.com", "***")//Gmail app password
+                    Credentials = new NetworkCredential("***", "***")//,Gönderici mail- Gmail app password
                 };
 
-                using (var mailMessage = new MailMessage("help.kadirbeskardes@outlook.com", "kadir.beskardes11@gmail.com")
+                using (var mailMessage = new MailMessage("***", "****")//Gönderici mail- Alıcı mail
                 {
                     Subject = konu,
                     Body = icerik
