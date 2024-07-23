@@ -34,7 +34,8 @@ namespace GormeEngelliUygulama.Model
             {
 
             }
-        }
+        } 
+
 
         public static void MailGonder(string ek_txt)
         {
