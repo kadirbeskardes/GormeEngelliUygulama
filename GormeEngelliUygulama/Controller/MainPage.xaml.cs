@@ -27,7 +27,7 @@ namespace GormeEngelliUygulama.Controller
         public static OpenAIClient client = new OpenAIClient("***");//OpenAI API key
         private static bool mailGonderildi = false;
         public MainPage()
-        {
+        { 
             try
             {
                 InitializeComponent();
